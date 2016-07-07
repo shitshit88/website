@@ -21,6 +21,11 @@ body{
 	line-height:1.4em; 
 	font-weight:normal;
 }
+
+footer
+{
+	font-weight: bold;
+}
 h1, h2, h3, h4, h5, h6{
 	font-weight:normal;
 	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
@@ -34,7 +39,7 @@ h1, h2, h3, h4, h5, h6{
 a,
 a:visited,
 a:active,
-a:hover{color:#0099ff;}
+a:hover{color:teal;}
 a:hover{ text-decoration:none;}
 
 
@@ -91,14 +96,14 @@ img{ max-width:100%; height:auto;}
 	display:block;
 	padding:10px;
 	margin:20px 0 0;
-	background:#666;
+	background:#333;
 	color:#fff;
 	cursor:pointer;
 	text-transform:uppercase;
 	font-size:20px;
 }
 .menu-toggle.toggled-on{
-	background:#0099ff;
+	background:teal;
 }
 .srt-menu{
 	display:none;
@@ -122,7 +127,7 @@ img{ max-width:100%; height:auto;}
 	text-decoration:none;
 }
 .srt-menu li a:hover{
-	background:#0099ff;
+	background:teal;
 	color:#fff;
 }
 .srt-menu li li a {
@@ -151,7 +156,7 @@ img{ max-width:100%; height:auto;}
 }
 #secondary-navigation ul li a:hover,
 #secondary-navigation ul li.current a{
-	background:#0099ff;
+	background:teal;
 	color:#fff;
 }
 
@@ -196,7 +201,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 footer{ 
-	background:#333;
+	background:#666;
 	color:#ccc;
 }
 footer h1, footer h2, footer h3, footer h4{ 
@@ -208,7 +213,7 @@ footer ul{
 }
 
 a.buttonlink{ 
-	background:#0099ff; 
+	background:teal; 
 	border-radius:7px; 
 	color:#fff;
 	display:block;
@@ -397,7 +402,7 @@ ul.srt-menu li li li.sfHover ul {
 	height:45px;
 }
 .srt-menu a, .srt-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-	color:			#0099ff;	
+	color:			teal;	
 }
 .srt-menu li li a {
 		border-top:		1px solid rgba(255,255,255,.2);
@@ -417,11 +422,11 @@ ul.srt-menu li li li.sfHover ul {
 .srt-menu li:hover > a,
 .srt-menu li.current a{ 
 	color:#fff;
-	background:#0099ff;
+	background:teal;
 }
 .srt-menu li li:hover > a{
 	color:#fff;
-	background:#0099ff;
+	background:teal;
 }
 
 
